@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-openai
+openai
+tavily-python
+fastapi
+uvicorn[standard]
+streamlit
+python-dotenv
+sse-starlette
+pytest
+httpx

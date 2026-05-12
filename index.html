@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-agent Research Assistant</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <header>
+          <h1>Multi-agent research assistant</h1>
+          <p>GenAI / Agentic AI</p>
+          <p>
+            Build a LangGraph multi-agent system that autonomously researches a topic:
+            one agent searches, one summarizes, one critiques, one synthesizes —
+            producing a structured report.
+          </p>
+          <ul>
+            <li>LangGraph</li>
+            <li>LangChain</li>
+            <li>Tavily API</li>
+            <li>OpenAI API</li>
+            <li>FastAPI</li>
+            <li>Streamlit</li>
+          </ul>
+        </header>
+
+        <section>
+          <h2>Real-world problem</h2>
+          <p>
+            Agentic AI is the frontier of GenAI engineering. Single-agent RAG is now a
+            commodity skill — multi-agent orchestration with LangGraph is where 2025
+            interviews are heading.
+          </p>
+        </section>
+
+        <section>
+          <h2>System architecture</h2>
+          <p>
+            User inputs research topic → Planner agent decomposes into sub-questions →
+            Search agents run parallel Tavily queries → Summarizer condenses each
+            result → Critic agent scores source credibility → Synthesizer writes final
+            structured report → FastAPI serves the result, Streamlit shows agent trace.
+          </p>
+        </section>
+
+        <section>
+          <h2>Build milestones</h2>
+          <ul>
+            <li>Build single-agent search + summarize loop with LangGraph StateGraph</li>
+            <li>Add parallel branching: 3 search agents running concurrently</li>
+            <li>Implement Critic agent that scores and filters low-quality sources</li>
+            <li>
+              Add streaming output so the user sees the report being assembled in real
+              time
+            </li>
+            <li>
+              Deploy FastAPI + Streamlit with a public HuggingFace Space demo
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Success metric</h2>
+          <p>
+            Report quality score (human eval), end-to-end latency, source credibility,
+            filter precision.
+          </p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
